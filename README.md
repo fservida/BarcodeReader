@@ -5,6 +5,8 @@ Simple Python Barcode reader based on opencv and pyzbar.
 - Automatically copy detected barcodes to clipboard.
 - Automatically open browser window on URL detection.
 
+Compiled version with Pyinstaller, tested on Windows 2004.
+
 # Requirements
 Python 3.6 environment
 pinned numpy==1.19.3 on Windows 2004 due to a Compatibility bug on 1.19.4
@@ -20,3 +22,4 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+Exit with "ESC" key when focused on window.
